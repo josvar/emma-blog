@@ -14,3 +14,7 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/backend/pokemon/create', function () {
+    return view('backend.pokemon.create');
+});
