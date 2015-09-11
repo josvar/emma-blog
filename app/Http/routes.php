@@ -18,3 +18,7 @@ Route::get('/', function () {
 Route::get('/backend/pokemon/create', function () {
     return view('backend.pokemon.create');
 });
+
+Route::get('/backend/pokemon/edit', function () {
+    return view('backend.pokemon.edit');
+});
