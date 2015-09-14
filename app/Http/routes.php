@@ -22,3 +22,5 @@ Route::get('/backend/pokemon/create', function () {
 Route::get('/backend/pokemon/edit', function () {
     return view('backend.pokemon.edit');
 });
+
+Route::resource('/backend/tipo', 'TipoController');
