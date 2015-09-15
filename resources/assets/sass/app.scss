@@ -1,2 +1,27 @@
-// @import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+@import "./listaEfectividades";
 
+html, body, h1, h2, h3, h4, h5, h6, p {
+  font-family: 'Lato', sans-serif;
+}
+.panel{
+  background-color: transparent;
+}
+.general {
+  background-color: #FCFCFC;
+}
+.titulo {
+  text-align: center;
+}
+
+.formulario {
+  margin: 25px auto 0;
+  width: 600px;
+}
+
+.tituloPaso {
+  padding-bottom: 20px;
+}
+
+.formulario legend {
+  background-color: transparent;
+}
